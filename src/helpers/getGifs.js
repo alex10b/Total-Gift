@@ -1,5 +1,5 @@
  export const getGIfs = async(category) =>{
-    const url =  `url`
+    const url =  ``
 
     const resp = await fetch (url);
     const {data} = await resp.json();
